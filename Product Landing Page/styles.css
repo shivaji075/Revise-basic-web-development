@@ -1,0 +1,132 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: #eee;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  -moz-text-decoration-color: black;
+  letter-spacing: 3px;
+ 
+}
+.flex{
+  display: flex;
+}
+a{
+  color: #000;
+}
+a:link{
+  text-decoration: none;
+}
+
+#header{
+  justify-content: space-between;
+  margin: 20px;
+  align-items: center;
+}
+#header img{
+  width: 30vw;
+}
+#header a{
+  margin-right: 25px;
+  padding: 12px;
+}
+
+section .heading{
+  text-align: center;
+  margin-top: 120px;
+}
+
+section div input{
+  padding: 7px;
+  width: 25vw;
+  margin-top: 25px;
+}
+.wrap{
+  overflow: hidden;
+  background-color: #eee;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+}
+.icon{
+  color: #f1c40f;
+margin-right: 5vw;  
+}
+.container{
+  display: flex;
+  justify-content: center;
+  margin: 30px;
+}
+.row{
+  width: 60vw;
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  
+}
+.box-row-container{
+  display: grid;
+  gap: 6vw;
+  margin: 50px;
+  grid-auto-flow: column;
+  width: 75vw;
+  text-align: center;
+}
+.box{
+  border: 1px solid black;
+  text-align: center;
+  justify-items: center;
+}
+.box h3{
+  padding: 15px;
+  background-color: #ddd;
+}
+.box h1{
+  padding: 5px;
+}
+.box p{
+  padding: 5px;
+}
+.select-button{
+  background-color: #f1c40f;
+  padding: 10px;
+  margin: 15px 0;
+  border-radius: 5px;
+}
+.select-button:hover{
+  background-color: #f1a20f;
+  cursor: pointer;
+  transition: ease-in;
+}
+.box .select-button h5{
+  font-weight: bold;
+  font-family: sans-serif;
+  letter-spacing: 1px;
+  font-size: 15px;
+}
+.frame{
+  text-align: center;
+}
+.pricing{
+  justify-content: center;
+}
+.footer{
+  width: 75vw;
+  display: grid;
+  background-color: #ddd;
+  padding: 10px;
+}
+footer .flex{
+  justify-content: center;
+}
+.footer ul li{
+  text-decoration: none;
+  float: right;
+  list-style-type: none;
+  padding: 10px;
+}
+.footer p{
+  text-align: right;
+}
